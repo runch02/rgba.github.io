@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGBA Color Values</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <!-- <script src="script.js" defer></script> -->
+    <script src="script1.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="show-color">
+            <!-- show color here -->
+            <!-- <h3>RGB(<span id="R-value">0</span>, <span id="G-value">0</span>, <span id="B-value">0</span>)</h3> -->
+            <h4>RGBA(<span id="R-value">0</span>, <span id="G-value">0</span>, <span id="B-value">0</span>, <span id="A-value">0</span>)</h4>
+        </div>
+        <div class="red-value-container separate-color-container">
+            <label for="red-value">Red Value</label><br>
+            <input type="range" class="red-value-class" id="red-value" min="0" max="255" value="0">
+        </div>
+        <div class="green-value-container separate-color-container">
+            <label for="green-value">Green Value</label><br>
+            <input type="range" class="green-value-class" id="green-value" min="0" max="255" value="0">
+        </div>
+        <div class="blue-value-container separate-color-container">
+            <label for="blue-value">Blue Value</label><br>
+            <input type="range" class="blue-value-class" id="blue-value" min="0" max="255" value="0">
+        </div>
+        <div class="alpha-value-container separate-color-container">
+            <label for="alpha-value">Alpha Value</label><br>
+            <input id="alpha-value" type="number" min="0" max="10" value="0">
+        </div>
+    </div>
+    <footer>
+        <a href="information.html" target="_blank" title="Developer">Developer</a>
+    </footer>
+</body>
+
+</html>
